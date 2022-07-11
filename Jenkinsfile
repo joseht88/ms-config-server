@@ -2,7 +2,7 @@ node {
    def mvnHome
    
    stage('Preparation') {
-       git 'https://github.com/joseht88/springboot-servicio-eureka-server.git'
+       git 'https://github.com/joseht88/ms-config-server.git'
        mvnHome = tool 'MAVEN'
    }
    
